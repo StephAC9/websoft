@@ -1,3 +1,16 @@
+//Moving my duck
+document.getElementsByClassName("movingImg")[0].addEventListener('mouseover', () => {
+    let top = document.getElementsByClassName("movingImg")[0].style.top
+    top = top === '-40%' ? '-55%' :
+        top = top === '-55%' ? 0 : '-40%'
+    let left = document.getElementsByClassName("movingImg")[0].style.left
+    left = left === '-40%' ? 0 : '-40%';
+
+    document.getElementsByClassName("movingImg")[0].style.left = left
+    document.getElementsByClassName("movingImg")[0].style.top = top
+
+})
+
 function display(flagContainer, value) {
     flagContainer.style.display = 'block';
     window.setTimeout(function() {

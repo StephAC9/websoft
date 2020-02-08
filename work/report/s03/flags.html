@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/school-style.css">
+    <link rel="stylesheet" href="../css/flag-style.css">
     <style>
         span {
             font-size: 14px;
@@ -37,8 +37,8 @@
                         </li>
                         <li><a class="active" style="display: block;" href="">REPORTS</a>
                             <ul class="submenu">
-                                <li><a href="./flags.html">Flags</a></li>
-                                <li><a id="schools" href="schools.html">Schools</a></li>
+                                <li><a href="flags.html">Flags</a></li>
+                                <li><a href="./schools.html">Schools</a></li>
                                 <li><a href="../report.html">Written reports</a></li>
                             </ul>
                         </li>
@@ -50,36 +50,33 @@
                 <div class="nav-bar-bottom"></div>
             </div>
         </header>
-
     </div>
-    <div class="movingImg" id="animateddiv1"></div>
-    <section style="width: 96%;">
-        <div>
-            <div style="display: flex; justify-content: space-between;">
-                <div class="left-box">
-                    <div top-box>
-                        <h2 style="display: block; margin: 30px; text-align: center;">SWEDISH MUNICIPALITIES </h2>
-                        <button class="menu-header" id="cityLoader">LIST OF CITIES</button>
-                        <div class="vertical-menu ">
-                            <div id="menu-list">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-box">
-                    <div bottom-box>
-                        <div style="text-align:center;">
-                            <h3>LIST OF SCHOOLS IN <span id="cityName" style="text-transform: uppercase;"></span></h3>
-                        </div>
-                        <div class="table-container" id="schools-table"></div>
-                    </div>
-                </div>
+    <section>
+        <div style="margin:20px">
+            <h2>FLAGS DISPLAY</h2>
+        </div>
+        <div class="top-box">
+            <p style="margin: 0 auto"><b>RULES: </b>Click on a country name to display the corresponding country's flag. When the flag is displayed, hide the flag by clicking on it. All flags are made just from html and css. A smooth transition can be observed from displayed to
+                not displayed.
+            </p>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <div class="middle-box">
+                <div class="flag" id="cmr"><b>Cameroon</b></div>
+                <div class="flag" id="swe"><b>Sweden</b></div>
+                <div class="flag" id="gr"><b>Greece</b></div>
             </div>
 
         </div>
+        <div>
+            <div class="bottom-box">
+                <div id="flag-container"></div>
+            </div>
 
+        </div>
     </section>
-    <script src="../js/s03-scripts/school_script.js"></script>
+    <div class="movingImg" id="animateddiv1"></div>
+    <script src="../js/s03-scripts/flag_script.js"></script>
 </body>
 <footer class="footer">
     <div class="footer-top">

@@ -1,76 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./work/report/css/main.css">
     <style>
-        html {
-            overflow-y: scroll;
+        span {
+            font-size: 14px;
+            font-weight: normal;
         }
         
-        body {
-            margin: 8px auto;
-            background: #fff;
-            width: 700px;
-        }
-        
-        header {
-            background: rgb(4, 0, 255);
+        a {
             color: #fff;
-            padding: 12px;
-        }
-        
-        .vertical-menu {
-            width: 200px;
-        }
-        
-        .vertical-menu a {
-            background-color: #eee;
-            color: black;
-            display: block;
-            padding: 12px;
-            text-decoration: none;
-        }
-        
-        .vertical-menu a:hover {
-            background-color: #ccc;
-        }
-        
-        .vertical-menu a.active {
-            background-color: #0084ff;
-            color: white;
-        }
-        
-        div.picture1 {
-            background-image: url('steph.png');
-            background-repeat: no-repeat;
-            background-size: 500px;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            float: right;
         }
     </style>
 </head>
 
 <body>
-    <h1>Software Development For The Web</h1>
-    <hr />
-    <div>
-        <div class="picture1">&nbsp;</div>
+    <div style="padding: 20px; background-color: thistle;">
+        <header>
+            <div class="nav-bar">
+                <div class="nav-bar-top">
+                    <div class="bar-item-left">
+                        <h2 style="color: white;">MY PAGE</h2>
+                    </div>
+                    <ul class="bar-item-right">
+                        <li>
+                            <a class="active" href="./work/report/s01/home.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="/work/report/about.html">ABOUT</a>
+                        </li>
+                        <li><a style="display: block;" href="">REPORTS</a>
+                            <ul class="submenu">
+                                <li><a href="./work/report/s03/flags.html">Flags</a></li>
+                                <li><a href="/work/report/s03/schools.html">Schools</a></li>
+                                <li><a href="/work/report/report.html">Written reports</a></li>
+                            </ul>
+                        </li>
+                        <li class="me">
+                            <a style="width: 10px;margin-left: 5px;" href="./work/report/s02/me.html">ME</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-bar-bottom"></div>
+            </div>
+        </header>
+    </div>
+    <section class="main-container" style="display: inline-block;">
+        <div>
+            <h2>Assignment A01</h2><br>
+            <p class="parag">
+                You should prepare yourself by installing the Lab & Development Environment (Links to an external site.). You should carry out the following work which leads you to a small website published on GitHub Pages. Working with Git and GitHub (Links to an external
+                site.) Update my forked repo (Links to an external site.) Setup a website using GitHub Pages (Links to an external site.) Answer, or reflect upon, the following questions. Write freely, between 15 to 30 sentences. Did you before know about
+                the techniques Git, GitHub, Markdown and/or GitHub Pages? Have you ever created websites before? Briefly explain your experience and knowledge of web application development. What is your TIL for this course section? Ensure you have pushed
+                all your work to GitHub and attach a tag v1.0.0 or greater (v1.0.1, v1.0.2 and so on). Where should I write the text? For now, write your report in a text file work/report.txt and add it to your repo. In the next assignment we will move
+                the text to a more proper place. What is a TIL? TIL is an acronym for "Today I Learned" which playfully indicates that there are always new things to learn, every day. You usually pick up things you have learned and where you might have
+                hiked to a little extra about its usefulness or simplicity, or it was just a new lesson for the day that you want to note. Submission? You will submit this assignment, later on during the course. Save it for now by publishing it to GitHub.
+                Grading? This will be graded at the end of the course, as U/3, as a part of all assignments.
+            </p>
+        </div>
+        <div>
+            <h2>Assignment A02: <span>Assignment 02 Due 9 Feb by 23:59</span></h2><br>
+            <p class="parag">
+                Points None Create a report web site (Links to an external site.), as part of your course repo, and publish it on GitHub Pages. Answer, or reflect upon, the following questions. Write freely, between 15 to 30 sentences. Have you any previous experience
+                of HTML, CSS and/or JavaScript? Explain the role of HTML, CSS and JavaScript in web development. Give a brief explanation of how the browser, the HTTP protocol and the web server interacts. What is your TIL for this course section? The
+                report (your answers to the above questions) should be written in the report web site. You should also move your report from S01 into it. Ensure you have pushed all your work to GitHub and attach a tag v2.0.0 or greater. Submission? You
+                will submit this assignment, later on during the course. Save it for now. Grading? This will be graded at the end of the course, as U/3, as a part of all assignments.
+            </p>
+        </div>
+        <div>
+            <h2>Assignment A03: <span>Due 16 Feb by 23:59</span></h2><br>
+            <p class="parag">
+                Points None Do the coding exercise. Use JavaScript to make your website dynamic (Links to an external site.) Write your report by answering and reflecting on these questions. Write freely, between 15 to 30 sentences. Do you have any previous experience
+                of client side JavaScript? Can you compare and relate the JavaScript language to any other language you know? Describe how you worked with the coding exercise, what grade do you aim for and how did your code turn out to be? What is your
+                TIL for this course section? Ensure you have pushed all your work to GitHub and attach a tag v3.0.0 or greater. Submission? You will submit this assignment, later on during the course. Save it for now. Grading? This will be graded at the
+                end of the course, as U/3/4/5, as a part of all assignments.
+            </p>
+        </div>
 
-        <div class="vertical-menu">
-            <a href="" class="active">Assigments</a>
-            <a href="work/report/s01">Assigment 1</a>
-            <a href="work/report/me.html">Assigment 2</a>
-            <a href="work/report/s03/">Assigment 3</a>
-            <a href="#">Assigment 4</a>
-            <a href="#">Assigment 5</a>
-            <a href="#">Assigment 6</a>
-            <a href="#">Assigment 7</a>
-            <a href="#">Assigment 8</a>
+    </section>
+</body>
+<footer class="footer">
+    <div class="footer-top">
+    </div>
+    <div class="footer-bottom">
+        <div style="text-decoration: underline;margin: 10px;">
+            CONCTACT
+        </div>
+        <a class="email" style="text-decoration: none;" href="mailto:nnstephan9@yahoo.com?Subject=Hello%20again" target="_top">nnstephan9@yahoo.com</a><br>07034XXXXXX
+    </div>
+    <div>
+        <div class="sm" style="text-align: end;">
+            <img id="facebook" class="icon-fb" src="./work/report/assets/fb.png" alt="">
+        </div>
+        <div class="sm" style="text-align: start;">
+            <img id="linkedIn" class="icon-lkin" src="./work/report/assets/Lkin.png" alt="">
         </div>
     </div>
-</body>
+    </div>
+</footer>
 
 </html>

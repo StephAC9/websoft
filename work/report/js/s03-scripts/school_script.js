@@ -1,10 +1,10 @@
 //Moving my duck
 document.getElementsByClassName("movingImg")[0].addEventListener('mouseover', () => {
     let top = document.getElementsByClassName("movingImg")[0].style.top
-    top = top === '-40%' ? '-55%' :
-        top = top === '-55%' ? 0 : '-40%'
+    top = top === '40%' ? '55%' :
+        top = top === '55%' ? 0 : '40%'
     let left = document.getElementsByClassName("movingImg")[0].style.left
-    left = left === '-40%' ? 0 : '-40%';
+    left = left === '40%' ? 0 : '40%';
 
     document.getElementsByClassName("movingImg")[0].style.left = left
     document.getElementsByClassName("movingImg")[0].style.top = top
@@ -70,7 +70,7 @@ function compare(a, b) {
 //Loading municipalities
 async function loadMunicipalities() {
     let citiesArray = []
-    await fetch('../repo/municipalities.json')
+    await fetch('../files-repo/municipalities.json')
         .then((res) => res.json())
         .then((data) => {
             citiesArray = data.kommuns
@@ -93,7 +93,6 @@ async function loadMunicipalities() {
         })
 }
 // Fill up the menu with municipalities
-//document.getElementById('cityLoader').addEventListener('click', loadMunicipalities())
 document.getElementById('schools').addEventListener('click', loadMunicipalities())
 
 
@@ -101,13 +100,16 @@ document.getElementById('schools').addEventListener('click', loadMunicipalities(
 //Get school related to the municipality
 async function getSchools(kod) {
     console.log('function newfile. kod:' + kod)
-    await fetch('../repo/swedish_schools.json')
+    await fetch('../files-repo/swedish_schools.json')
         .then((res) => res.json())
         .then((data) => {
             console.log(data)
             const schools = data
             schoolArray = schools.Skolenheter.filter(school => school.Kommunkod == kod)
             console.log(schoolArray)
+            if (schoolArray.length < 1) {
+                document.getElementById('schools-table').innerHTML = `<h3>SORRY BUT WE COULD NOT FIND ANY SCHOOL RELATED TO THAT MUNICIPALITY. TRY ANOTHER!</h3>`
+            }
             setTable(schoolArray, 'schools-table')
         })
 
