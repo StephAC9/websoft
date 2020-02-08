@@ -1,0 +1,308 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: moserrat;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+.bar-item-right {
+    display: inherit;
+    list-style-type: none;
+}
+
+.bar-item-left {
+    margin-left: 10px;
+}
+
+li {
+    display: block;
+    margin: 10px;
+    padding: 4px;
+    font-family: moserrat;
+}
+
+.active {
+    background-color: burlywood;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: moserrat;
+}
+
+li :hover {
+    background-color: burlywood;
+}
+
+.main-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    flex-shrink: inherit;
+    border-radius: 5px;
+    border: solid gray;
+    margin: 10px;
+}
+
+footer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    position: inherit;
+    margin-top: 250px;
+}
+
+.album_footer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    margin-top: 550px;
+}
+
+.home-footer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.left-box {
+    flex-basis: 30%;
+    padding: 10px;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.right-box {
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    flex-basis: 45%;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .left-box {
+        border: solid grey;
+        flex-basis: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .right-box {
+        border: solid grey;
+        flex-basis: 100%;
+        padding: 10px;
+        margin-top: 30px;
+    }
+}
+
+.top-box {
+    flex-basis: 30%;
+    border: solid yellow;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bottom-box {
+    flex-basis: 60%;
+    border: solid yellow;
+}
+
+h4 {
+    display: block;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.city {
+    margin: 20px;
+}
+
+.city:hover {
+    color: rgb(73, 73, 69);
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(8, 148, 80);
+    color: white;
+}
+
+.h {
+    cursor: pointer;
+    color: gray;
+    width: 150px;
+    margin: 10px;
+}
+
+.h:hover {
+    color: green;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.table-container th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+menu {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.vertical-menu {
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #eee;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu menu:hover {
+    background-color: #ccc;
+}
+
+.menu-header {
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+}
+
+.vertical-menu a.active2 {
+    background-color: burlywood;
+    color: white;
+}
+
+#loadBtn:hover {
+    background-color: rgb(153, 111, 56);
+}
+
+ul:hover {
+    color: bisque;
+}
+
+.movingImg {
+    position: relative;
+    margin: 0 auto;
+    width: 70px;
+    height: 50px;
+    background: url("../assets/duck.png");
+}
+
+.flag-links {
+    padding: 20px;
+}
+
+.flag {
+    border-radius: 5px;
+    border: 1px burlywood;
+}
+
+.flag:hover {
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+#flag-container {
+    padding: 16px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: scale(0);
+    transition: .6s ease opacity, .6s ease transform;
+}
+
+#star-five {
+    margin: 70px 0;
+    position: relative;
+    display: block;
+    color: yellow;
+    width: 0px;
+    height: 0px;
+    border-right: 80px solid transparent;
+    border-bottom: 50px solid yellow;
+    border-left: 100px solid transparent;
+    transform: rotate(37deg);
+}
+
+#star-five:before {
+    border-bottom: 80px solid yellow;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -55px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+#star-five:after {
+    position: absolute;
+    display: block;
+    color: yellow;
+    top: 7px;
+    left: -100px;
+    width: 0px;
+    height: 0px;
+    border-right: 90px solid transparent;
+    border-bottom: 40px solid yellow;
+    border-left: 90px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
