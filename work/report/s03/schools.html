@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="bar-item-left">
+            <h2 style="color: rgb(63, 61, 53);">WEB DEV COURSE</h2>
+        </div>
+        <ul class="bar-item-right">
+            <li>
+                <a href="/work/report/s01/home.html">HOME</a>
+            </li>
+            <li>
+                <a href="/work/report/s03/flag.html">FLAGS</a>
+            </li>
+            <li>
+                <a id="schools" class="active" href="/work/report/s03/schools.html">SCHOOLS</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-container">
+        <div class="left-box">
+            <div top-box>
+                <h2 style="display: block; margin: 30px; text-align: center;">SWEDISH MUNICIPALITIES </h2>
+                <button class="menu-header" id="cityLoader">LIST OF CITIES</button>
+                <div class="vertical-menu ">
+                    <div id="menu-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-box">
+            <div bottom-box>
+                <div style="text-align:center;">
+                    <h3>LIST OF SCHOOLS IN <span id="cityName" style="text-transform: uppercase;"></span></h3>
+                </div>
+                <div class="table-container" id="schools-table"></div>
+            </div>
+        </div>
+    </div>
+    <div class="movingImg" id="animateddiv1">
+    </div>
+    <script src="school_script.js">
+    </script>
+</body>
+<footer>
+    <p style="font-style: italic;">Web development course exersices by Stephan ngaha</p>
+</footer>
+
+</html>
