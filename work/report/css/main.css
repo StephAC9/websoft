@@ -114,6 +114,9 @@ li :hover {
 
 .email {
     text-decoration: none;
+    color: rgb(235, 101, 223);
+    font-size: 14px;
+    font-weight: 2px;
 }
 
 .email:hover {
