@@ -58,6 +58,7 @@ a {
     width: 100px;
     padding: 20px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .flag:hover {
