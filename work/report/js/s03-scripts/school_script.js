@@ -72,7 +72,7 @@ async function loadMunicipalities() {
 
                 element += `
                 <menu>
-                    <menuitem style="cursor:pointer" onclick="getSchools(${city.kod})" >${city.name} </menuitem>
+                    <menuitem style="cursor:pointer" onclick="getSchools(${city.kod},'${city.name}')" >${city.name} </menuitem>
                 </menu>
                  `
             }
@@ -85,19 +85,25 @@ document.getElementById('schools').addEventListener('click', loadMunicipalities(
 
 
 //Get school related to the municipality
-async function getSchools(kod) {
+async function getSchools(kod, name) {
     console.log('function newfile. kod:' + kod)
+    console.log('function newfile. name:' + name)
     await fetch('../files-repo/swedish_schools.json')
         .then((res) => res.json())
         .then((data) => {
-            console.log(data)
             const schools = data
             schoolArray = schools.Skolenheter.filter(school => school.Kommunkod == kod)
             console.log(schoolArray)
+            console.log('Array first el: ' + schoolArray[0])
+            document.getElementById('cityName').innerHTML = 'list of school in ' + name
             if (schoolArray.length < 1) {
-                document.getElementById('schools-table').innerHTML = `<h3>SORRY BUT WE COULD NOT FIND ANY SCHOOL RELATED TO THAT MUNICIPALITY. TRY ANOTHER!</h3>`
+                document.getElementById('schools-table').innerHTML = `
+                <div style="padding: ${20}px; margin: ${50}px ${10}px; border: ${0.5}px solid red; border-raduis: ${5}px; background: thistle; text-align: center;">
+                    <p style="color: white; font-size: 15px; text-transform: uppercase; font-style: italic"><b>SORRY BUT NOT SCHOOL RELATED TO <span style="color:black">${name} KOMMUN</span> COULD BE FOUND IN OUR DATA BASE AT THE MOMENT. TRY ANOTHER!</b></p>
+                </div>`
+            } else {
+                setTable(schoolArray, 'schools-table')
             }
-            setTable(schoolArray, 'schools-table')
         })
 
 }
