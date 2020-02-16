@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/lotto.css">
+    <style>
+        span {
+            font-size: 14px;
+            font-weight: normal;
+        }
+        
+        a {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-bar-top">
+                <div class="bar-item-left">
+                    <h2 style="color: green;">LOTTERIE APP</h2>
+                </div>
+                <ul class="bar-item-right">
+                    <li> <a class="active" href="/lotto">Lotto Number Generator</a> </li>
+                    <li><a style="display: block;" href="/report">Report</a> </li>
+                </ul>
+            </div>
+            <div class="nav-bar-bottom"></div>
+        </div>
+    </header>
+    <section class="main-container">
+        <h1 style="text-align: center; margin-bottom: 150px; margin-top: 0px; color: rgb(248, 246, 242);">GAME</h1>
+        <h3 style="text-align: center; margin-top: 100px;">PLAY</h3>
+        <p style="color: rgb(208, 255, 0);"><b style="color: white;">RULES: </b>Provide 7 numbers from 1 to 35 and see if you have won! GOOD LUCK!</p>
+        <div class="lotto-container">
+            <div style="color: red;" id="errMsg"></div>
+            <div class="my-serie">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="fisrt" id="first">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="second" id="second">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="third" id="third">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="fourth" id="fourth">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="fifth" id="fifth">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="sixth" id="sixth">
+                <input style="text-align: center;" class="number-box" type="number" min="1" max="35" name="seventh" id="seventh">
+            </div>
+            <div class="submit">
+                <button id="btn-submit" onclick="sumbitOwnSerie()" style="color: greenyellow;">SUBMIT SERIE</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="/js/lotto.js">
+    </script>
+</body>
+<footer class="footer" style="margin-top: 100px;">
+    <div class="footer-top">
+    </div>
+    <div class="footer-bottom">
+        <div style="text-decoration: underline;margin: 10px;">
+            CONCTACT
+        </div>
+        <a class="email" style="text-decoration: none;" href="mailto:nnstephan9@yahoo.com?Subject=Hello%20again" target="_top">nnstephan9@yahoo.com</a><br>07034XXXXXX
+    </div>
+    <div>
+        <div onclick="window.open('https://www.facebook.com/stephane.ngaha','blank')" class="sm" style="text-align: end;">
+            <img id="facebook" class="icon-fb" src="/img/fb.png" alt="">
+        </div>
+        <div onclick="window.open('https://www.linkedin.com/in/stephan-ngaha-323274179/','blank')" class="sm" style="text-align: start;">
+            <img id="linkedIn" class="icon-lkin" src="/img/Lkin.png" alt="">
+        </div>
+    </div>
+    </div>
+</footer>
+
+</html>

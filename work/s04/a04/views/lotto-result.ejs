@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/lotto.css">
+    <style>
+        span {
+            font-size: 14px;
+            font-weight: normal;
+        }
+        
+        a {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-bar-top">
+                <div class="bar-item-left">
+                    <h2 style="color: green;">LOTTERIE APP</h2>
+                </div>
+                <ul class="bar-item-right">
+                    <li>
+                        <a class="active" href="">Result</a>
+                    </li>
+                    <li>
+                        <a href="/lotto">Lotto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-bar-bottom"></div>
+        </div>
+    </header>
+    <section class="main-container">
+        <h1 style="text-align: center; margin-bottom: 150px; margin-top: 0px; color: rgb(248, 246, 242);font-size: 60px;">LOTTERIE RESULT</h1>
+        <h2 style="text-align: center;color: rgb(241, 247, 242);">LOTTERIE SERIE</h2>
+        <div class="lotto-container" style="background-color: rgb(248, 246, 250);">
+            <div class="my-serie">
+                <% for(var num of currentSerie){%>
+                    <input class="number-box" type="text" %> value=
+                    <%=num %> readonly>
+                        <%}%>
+            </div>
+        </div>
+        <h2 style="text-align: center; margin-top: 100px;color: rgb(201, 216, 204);">YOUR SERIE</h2>
+        <div class="lotto-container">
+            <div class="my-serie">
+                <% for(var num of lottoPlayer.playerSerie){%>
+                    <input class="number-box" type="text" %> value=
+                    <%=num %> readonly>
+                        <%}%>
+            </div>
+            <div style="margin-top: 100px;">
+                <label style="margin-top: 20px; color: rgb(11, 59, 27);" for="fname">Number of hits: </label>
+                <input style="margin:0 auto; font-size: 20px;font-weight: bold; text-align: center; width: 40px; height: 40px;" type="text" %> value=
+                <%=lottoPlayer.numberOfHits %> readonly>
+            </div>
+        </div>
+
+    </section>
+    <script src="/js/lotto.js">
+    </script>
+</body>
+<footer class="footer" style="margin-top: 100px;">
+    <div class="footer-top">
+    </div>
+    <div class="footer-bottom">
+        <div style="text-decoration: underline;margin: 10px;">
+            CONCTACT
+        </div>
+        <a class="email" style="text-decoration: none;" href="mailto:nnstephan9@yahoo.com?Subject=Hello%20again" target="_top">nnstephan9@yahoo.com</a><br>07034XXXXXX
+    </div>
+    <div>
+        <div onclick="window.open('https://www.facebook.com/stephane.ngaha','blank')" class="sm" style="text-align: end;">
+            <img id="facebook" class="icon-fb" src="/img/fb.png" alt="">
+        </div>
+        <div onclick="window.open('https://www.linkedin.com/in/stephan-ngaha-323274179/','blank')" class="sm" style="text-align: start;">
+            <img id="linkedIn" class="icon-lkin" src="/img/Lkin.png" alt="">
+        </div>
+    </div>
+    </div>
+</footer>
+
+</html>

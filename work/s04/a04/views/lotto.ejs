@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/lotto.css">
+    <style>
+        span {
+            font-size: 14px;
+            font-weight: normal;
+        }
+        
+        a {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-bar-top">
+                <div class="bar-item-left">
+                    <h2 style="color: green;">LOTTERIE APP</h2>
+                </div>
+                <ul class="bar-item-right">
+                    <li> <a class="active" href="/lotto">Lotto Number Generator</a> </li>
+                    <li> <a href="/lotto/play">Play</a> </li>
+                    <li><a style="display: block;" href="/report">Report</a> </li>
+                </ul>
+            </div>
+            <div class="nav-bar-bottom"></div>
+        </div>
+    </header>
+    <section class="main-container">
+        <h1 style="text-align: center; margin-bottom: 150px; margin-top: 0px; color: rgb(248, 246, 242);">GAME</h1>
+        <h3 style="text-align: center; color: rgb(248, 247, 245);">LOTTERIE SERIE</h3>
+        <div class="lotto-container">
+            <div class="my-serie">
+                <% for(var num of numbers){%>
+                    <input class="number-box" type="text" id=<%=numbers.indexOf(num) %> value=
+                    <%=num %> readonly>
+                        <%}%>
+            </div>
+            <div class="submit">
+                <button id="btn-reload" onclick="generateNewLottoSerie()" style="color: yellowgreen;">RELOAD SERIE</button>
+            </div>
+        </div>
+    </section>
+    <script src="/js/lotto.js">
+    </script>
+</body>
+<footer class="footer" style="margin-top: 100px;">
+    <div class="footer-top">
+    </div>
+    <div class="footer-bottom">
+        <div style="text-decoration: underline;margin: 10px;">
+            CONCTACT
+        </div>
+        <a class="email" style="text-decoration: none;" href="mailto:nnstephan9@yahoo.com?Subject=Hello%20again" target="_top">nnstephan9@yahoo.com</a><br>07034XXXXXX
+    </div>
+    <div>
+        <div onclick="window.open('https://www.facebook.com/stephane.ngaha','blank')" class="sm" style="text-align: end;">
+            <img id="facebook" class="icon-fb" src="/img/fb.png" alt="">
+        </div>
+        <div onclick="window.open('https://www.linkedin.com/in/stephan-ngaha-323274179/','blank')" class="sm" style="text-align: start;">
+            <img id="linkedIn" class="icon-lkin" src="/img/Lkin.png" alt="">
+        </div>
+    </div>
+    </div>
+</footer>
+
+</html>

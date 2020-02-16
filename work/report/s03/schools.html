@@ -20,7 +20,7 @@
     </style>
 </head>
 
-<body>
+<body onload="startDuckGame()">
     <div style="padding: 20px; background-color: thistle;">
         <header>
             <div class="nav-bar">
@@ -33,13 +33,13 @@
                             <a href="../s01/home.html">HOME</a>
                         </li>
                         <li>
-                            <a href="../about.html">ABOUT</a>
+                            <a href="../s02/about.html">ABOUT</a>
                         </li>
                         <li><a class="active" style="display: block;" href="">REPORTS</a>
                             <ul class="submenu">
                                 <li><a href="./flags.html">Flags</a></li>
                                 <li><a id="schools" href="schools.html">Schools</a></li>
-                                <li><a href="../report.html">Written reports</a></li>
+                                <li><a href="../s02/report.html">Written reports</a></li>
                             </ul>
                         </li>
                         <li class="me">
@@ -52,24 +52,7 @@
         </header>
 
     </div>
-    <!--     <div class="movingImg" id="animateddiv1"></div>
- --><img src="../assets/duck.png" id="duck" style="height:50px;width:50px;visibility:hidden;position:fixed;top:30px" alt="hi">
-    <div id="scoreHolder" class="text-container" style="display:flex;visibility:hidden;width:100px;position:fixed;right:10px;bottom:170px;margin:0;border-radius:50px">
-        <div>Points:</div>
-        <div id="points" style="padding-left:5px">0</div>
-    </div>
-
-    <div class="tooltip" id="startLogo">
-        <span class="tooltiptext" style="right:8px;bottom:170px;">Press to start</span>
-        <img src="../assets/start-game.png" class="image-game" alt="Duck-logo">
-    </div>
-
-    <div class="tooltip" id="exit" style="visibility:hidden; background-color:red;">
-        <span class="tooltiptext" style="height:3 0px;width:170px;display:fixed;right:91px;bottom:115px;"> Press to Exit the game</span>
-        <img src="../assets/stop.png" alt="hi" class="image-game">
-    </div>
-
-
+    <img src="../img/duck.png" id="myduck" alt="myduck-img">
     <section style="width: 96%;">
         <div>
             <div style="display: flex; justify-content: space-between;">
@@ -96,8 +79,9 @@
         </div>
 
     </section>
-    <script src="../js/s03-scripts/school_script.js">
+    <script src="../js/school_script.js">
     </script>
+    <script src="../js/myduck_script.js"></script>
 </body>
 <footer class="footer">
     <div class="footer-top">
@@ -110,10 +94,10 @@
     </div>
     <div>
         <div onclick="window.open('https://www.facebook.com/stephane.ngaha','blank')" class="sm" style="text-align: end;">
-            <img id="facebook" class="icon-fb" src="../assets/fb.png" alt="">
+            <img id="facebook" class="icon-fb" src="../img/fb.png" alt="">
         </div>
         <div onclick="window.open('https://www.linkedin.com/in/stephan-ngaha-323274179/','blank')" class="sm" style="text-align: start;">
-            <img id="linkedIn" class="icon-lkin" src="../assets/Lkin.png" alt="">
+            <img id="linkedIn" class="icon-lkin" src="../img/Lkin.png" alt="">
         </div>
     </div>
     </div>

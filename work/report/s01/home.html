@@ -19,7 +19,7 @@
     </style>
 </head>
 
-<body>
+<body onload="startDuckGame()">
     <div style="padding: 20px; background-color: thistle;">
         <header>
             <div class="nav-bar">
@@ -32,13 +32,13 @@
                             <a class="active" href="home.html">HOME</a>
                         </li>
                         <li>
-                            <a href="../about.html">ABOUT</a>
+                            <a href="../s02/about.html">ABOUT</a>
                         </li>
                         <li><a style="display: block;" href="">REPORTS</a>
                             <ul class="submenu">
                                 <li><a href="../s03/flags.html">Flags</a></li>
                                 <li><a href="../s03/schools.html">Schools</a></li>
-                                <li><a href="../report.html">Written reports</a></li>
+                                <li><a href="../s02/report.html">Written reports</a></li>
                             </ul>
                         </li>
                         <li class="me">
@@ -50,6 +50,7 @@
             </div>
         </header>
     </div>
+    <img src="../img/duck.png" id="myduck" alt="myduck-img">
     <section class="main-container" style="display: inline-block;">
         <section>
             <h2 style="text-align: start;">Assignment A01</h2><br>
@@ -83,6 +84,7 @@
         </section>
 
     </section>
+    <script src="../js/myduck_script.js"></script>
 </body>
 <footer class="footer">
     <div class="footer-top">
@@ -95,15 +97,13 @@
     </div>
     <div>
         <div onclick="window.open('https://www.facebook.com/stephane.ngaha','blank')" class="sm" style="text-align: end;">
-            <img class="icon-fb" src="../assets/fb.png" alt="">
+            <img class="icon-fb" src="../img/fb.png" alt="">
         </div>
         <div onclick="window.open('https://www.linkedin.com/in/stephan-ngaha-323274179/','blank')" class="sm" style="text-align: start;">
-            <img class="icon-lkin" src="../assets/Lkin.png" alt="">
+            <img class="icon-lkin" src="../img/Lkin.png" alt="">
         </div>
     </div>
     </div>
 </footer>
 
 </html>
-
-'location.href = "https://www.facebook.com/search/top/?q=stephan%20ngaha&epa=SEARCH_BOX";'
