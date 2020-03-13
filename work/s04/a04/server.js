@@ -1,4 +1,3 @@
-require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -82,7 +81,7 @@ app.get('/lotto/result', async(req, res) => {
 
 
 
-const port = process.env.PORT || 6005
+const port = 6005
 app.listen(port, () => {
     console.log(`Express server up running listening at port ${port} ...`)
 })
