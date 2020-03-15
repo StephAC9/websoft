@@ -139,6 +139,7 @@
     <Content Remove="WebApplication\Properties\launchSettings.json" />
     <Content Remove="WebApplication\data\acount.json" />
     <Content Remove="data\acount.json" />
+    <Content Remove="Controllers\account.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />

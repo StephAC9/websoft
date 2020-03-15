@@ -8,3 +8,13 @@
 /Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.AssemblyInfo.cs
 /Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.dll
 /Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.pdb
+/Users/macbookpro/Desktop/websoft/work/s07/console/bin/Debug/netcoreapp3.0/console.deps.json
+/Users/macbookpro/Desktop/websoft/work/s07/console/bin/Debug/netcoreapp3.0/console.runtimeconfig.json
+/Users/macbookpro/Desktop/websoft/work/s07/console/bin/Debug/netcoreapp3.0/console.runtimeconfig.dev.json
+/Users/macbookpro/Desktop/websoft/work/s07/console/bin/Debug/netcoreapp3.0/console.dll
+/Users/macbookpro/Desktop/websoft/work/s07/console/bin/Debug/netcoreapp3.0/console.pdb
+/Users/macbookpro/Desktop/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.csprojAssemblyReference.cache
+/Users/macbookpro/Desktop/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.AssemblyInfo.cs
+/Users/macbookpro/Desktop/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.dll
+/Users/macbookpro/Desktop/websoft/work/s07/console/obj/Debug/netcoreapp3.0/console.pdb

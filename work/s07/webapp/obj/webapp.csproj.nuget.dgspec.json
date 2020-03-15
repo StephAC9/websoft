@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/webapp/webapp.csproj": {}
+    "/Users/macbookpro/Desktop/websoft/work/s07/webapp/webapp.csproj": {}
   },
   "projects": {
-    "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/webapp/webapp.csproj": {
+    "/Users/macbookpro/Desktop/websoft/work/s07/webapp/webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/webapp/webapp.csproj",
+        "projectUniqueName": "/Users/macbookpro/Desktop/websoft/work/s07/webapp/webapp.csproj",
         "projectName": "webapp",
-        "projectPath": "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/webapp/webapp.csproj",
+        "projectPath": "/Users/macbookpro/Desktop/websoft/work/s07/webapp/webapp.csproj",
         "packagesPath": "/Users/macbookpro/.nuget/packages/",
-        "outputPath": "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/webapp/obj/",
+        "outputPath": "/Users/macbookpro/Desktop/websoft/work/s07/webapp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/macbookpro/.nuget/NuGet/NuGet.Config"
+          "/Users/macbookpro/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/console/console.csproj",
+      "projectUniqueName": "/Users/macbookpro/Desktop/websoft/work/s07/console/console.csproj",
       "projectName": "console",
-      "projectPath": "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/console/console.csproj",
+      "projectPath": "/Users/macbookpro/Desktop/websoft/work/s07/console/console.csproj",
       "packagesPath": "/Users/macbookpro/.nuget/packages/",
-      "outputPath": "/Users/macbookpro/Desktop/WebDevCourse/websoft/work/s07/console/obj/",
+      "outputPath": "/Users/macbookpro/Desktop/websoft/work/s07/console/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

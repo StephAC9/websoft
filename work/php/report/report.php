@@ -5,65 +5,72 @@
             <div class="report-container">
 
             </div>
-            <section class="report-item">
+            <section class="report-item" style="padding:30px; text-align:start">
                 <h2>S01</h2>
-                <p>1) Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages? I have some experience with github. It the first time though that i am using github pages. 2) Have you ever created websites before? Yes i did create a
-                    website for one of our school project. 3) Briefly explain your experience and knowledge of web application development. I have some months exeprience in frontend developemnt with VueJs framework. 4) What is your TIL for this course section?
-                    github pages.
+                <p> 
+                 I have some experience with github. I have been using Git and Github since i started this program 3 years ago. I find it a bit slow to use command line. 
+                 I prefer using Github desktop. It sense all changes and you just have to commit and push.accept-policy. 
+                It the first time though that i am using github pages. It's totally new to me and i think it's really awesome.
+                I did create a website before for one of our school project. And I'm actually working as an Intern for a Web Company.
+                I have some months exeprience in frontend developemnt with VueJs framework. I love javascript and I try as much as possible to learn it. 
+                I also have some knowleges on Backend developement with Java and javascript. I'm also a big fan of GraphQl which uses a kind query language developed by facebook 
+                to build API. For this first lecture, I got to learn about Github pages and fork. I think theya re great tools offered by Github and i I will definately start to use it in my projects.
             </section>
 
             <section>
                 <h2>S02</h2>
-                <p>1) Have you any previous experience of HTML, CSS and/or JavaScript? yes a bit of experience. Unfortunately we havent done any at school before. So I learn a lot on my own. 2) Explain the role of HTML, CSS and JavaScript in web development.
-                    HTML is a 'language' responsible to describe the structure of Web pages. CSS is use to style html elements, to position them on a page, to produce some animation. JAVASCRIPT is a programming language use to bring life in a web page. It
+                <p>Unfortunately we havent done any HTML CSS and Javascript at school before this course. 
+                    I wish I have discovered web development earlier in the program. But as I said above, I have caught the virus of Web developement and 
+                    I using some tutorials, I learn a lot on my own. HTML is a 'language' responsible to describe the structure of Web pages. 
+                    CSS is use to style html elements, to position them on a page, to produce some animation. JAVASCRIPT is a programming language use to bring life in a web page. It
                     make a web page dynamic. 3) Give a brief explanation of how the browser, the HTTP protocol and the web server interacts. When browsing, users make requests to access some resources that are located somewhere in a server. Users then user
                     browsers to issue http requests and user the browser to get requested data back. 4) What is your TIL for this course section? I must say that all was ok for me for this course section. I have to improve my CSS,HTML and JAVASCRIPT
             </section>
 
             <section>
                 <h2>S03</h2>
-                <p>1) Do you have any previous experience of client side JavaScript? Yes little bit. As i said before, I made a client side web app for a a school project earlier. I had to connect to a remote server and do some CRUD operations. 2) Can you compare
-                    and relate the JavaScript language to any other language you know? I have learned Java so far and i think JavaScript is somehow like Java or c#. 3) Describe how you worked with the coding exercise, what grade do you aim for and how did
-                    your code turn out to be? I should say that i am not very happy with my coding. I think there is a lot of code repetition but i don't know how to make it better. I'm use to work with framework like Vuejs or React. It make everything easy.
+                <p>As i said before, I made a client side web app for a a school project earlier. I had to connect to a remote server and do some CRUD operations. Besides, at work I'm dealing with clientside App. 
+                    I have learned Java so far and i think JavaScript is somehow like Java or c#. But I like more Javascript so far. 
+                    I think it's difficult as language but in the same time it think it's more complete that Java for exemple. It's also the most popular in Web deveolopment cercle. I should say that i am not very happy with my coding. I think there is a lot of code repetition but i don't know how to make it better. I'm use to work with framework like Vuejs or React. It make everything easy.
                     Working from scratch like this is very good somehow because i think i learn a lot. But i just see that there are a lot of code duplication. A part from that i think proper coding was not that difficult yet. 4) What is your TIL for this
                     course section? I got to learn about transitions and animations. And I worked hard to reduce code duplication.
             </section>
 
             <section>
                 <h2>S04</h2>
-                <p>1) Tell me about your previous experience on node/npm or any equal programming tools.? I have use Node and Npm(Node packet namager) with VueJs. 2) How do you feel about working with JavaScript, Node and Express? So far it is good. I think
-                    it should be ok. 3) Explain how you did take on the coding assignment, did you have a plan and did it work? 4) What grade did you aim for and was it a difficult level? 5) What is your TIL for this course section?
+                <p>I have use Node and Npm(Node packet namager) already in my projects. While creating VueJs projects or GraphQL I'm used to use NPM for manage my dependencies. 
+                    I't feels quite normal for me to work with Javascript, Node and Express. I'm not used to EJS though and i find it a bit confusing because so far I was using Node 
+                    just for Server side Apps. So it was quite difficult to solve the EJS part. I had to follow some Youtube tutorial and took inpiration from there to be able to finish.
+                    I should say that once i cook understand how everything works, It became simpler. And I'm really happy about the result. My friend and I have been having fun  
+                    playing my Lottery game.
             </section>
 
             <section>
             <h2>S05</h2>
             <p>
-                <span>How do you feel about PHP as a programming language?</span><br /> Since i have no previous experience with PHP, it still a bit confusing. But it seems to be a very powerful language for dynamic websites. I think one just need to get use to it.
+                At the begining it was a bit confusing since i have no previous experience with PHP. 
+                Now that i have been practicing a bit, I think the difficult part is the set ups. 
+                Once everything is setup, it gets really smooth. I had the choice to use XAMPP which offer all the template but i decided to do it using the general PHP server.
+                I thought it was better to be able to understand and organise my code the way i wanted. As a conclusion, I think PHP a very powerful language that offer great tools for dynamic websites. 
+                I understand why it still widely used out there in the industry. The PHP language itself seems not very difficult. I think one just need to get use to it.
             </p>
-
             <p>
-                <span>-Can you compare PHP to other languages you know?</span><br /> So far i cannot see how to use PHP as an Object oriented language. That would be for me the major differnce.
+                I would like to compare PHP with Javascript because they both are widely use in Web development.
+                Both JavaScript and PHP are two of the most popular and versatile programming languages used for website development.
+                Many programmers would agree it’s not fair to compare one with the other because they have different purposes when it comes to website development.
+                While JavaScript is a client-side scripting language, PHP is the most popular server-side scripting language. JavaScript handles things on the browser side without going back to the server side, whereas PHP handles things at the server side.
+                PHP is based on C language, so anyone with a decent knowledge of C would find PHP easy to master. While both are used to improve the functionality of websites, they have their fair share of pros and cons which definitely put one above the other.
             </p>
-
             <p>
-                <em>- Describe how you took on the coding exercise, what grade did you
-                  aim for and are you satisfied with the result?</em
-                ><br />
                 It was quite difficult at the beginning. After watching some tutorial, I started to find my way around. I manage to do all part and i aim for a 5
-              </p>
-      
-              <p>
-                <span>What is your TIL for this course section?</span><br /> I so happy about this part because now i can set up and bild a web app with PHP. I did not know anything about PHP before ,So my TIL is the whole concept.
+                I so happy about this part because now i can set up and bild a web app with PHP. I did not know anything about PHP before ,So my TIL is the whole concept.
             </p>
         </section>
 
         <section>
             <h2>S06</h2>
-            <p><strong>What is your own opinion on popularity of programming languages and what are your thoughts of future popularity among programming languages?</strong></p><br>
             <p>I think popularity among programming languages is quite subjective as it changing so fast nowaday. Some languages are more popular than other but at the end is a matter of preference. I really think it also depends on what you use the language for
                 For example C will me more popular for game developer will Java or C# or Pyton or PHP will be more popular as server side language. Javascript will be popular in frondend developement. So i think the popularity is relative.
-            </p><br>
-            <p><strong>What will be your own choice for selecting future programming languages?</strong></p><br>
             <p>I just a beginner but i love javascript. So will definately go for Javascript in the future</p><br>
             <p><strong>Do your own investigation on https://trends.google.com ,to customize your own comparison on programming languages (or frameworks) and elaborate on the results.</strong></p><br>
             <p>My comparison is that of JavaScript, PHP, Java. The results are parts of Europe such as Sweden, Norway, Brittain, France is the most popular language and in second place comes Java with and then the least is PHP not as popular as I thought
@@ -125,12 +132,6 @@
             <p>My TIL is understanding a bit more of security flaws precented and how serious it can be like for instance having financial issues from being attacked by hackers and the outcome that is may have on customers dependent on your service and might
                 in the future not be a customer from reasons like these. For instance Reddit was hacked before and had their DB exposed and it was found out that all the passwords and usernames where not encrypted at all but just in plain text.</p>
         </section>
-
-
-            <section>
-                <h2>S10</h2>
-                <p>Here is the text for this section.</p>
-            </section>
         </section>
         <script src="../js/myduck_script.js"></script>
 <?php require '../view/shared/footer.php'; ?>
